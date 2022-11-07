@@ -2,7 +2,7 @@ import React, { ReactNode, useEffect, useState, createContext } from 'react';
 import { Types, AptosClient } from 'aptos';
 import { getRandomInt } from "../util"
 const APTOS_RPC = 'https://fullnode.devnet.aptoslabs.com/v1';
-const protocol_address = '0x16d268213c705852e187efbfdaca4e64126903e2986ca839acd6ee4a80d1b929';
+const protocol_address = '0xce13581a6fc6672bb2e901146fe44fc8d27bec154f364a52d77d6d311f45087c';
 
 const client = new AptosClient(APTOS_RPC);
 // const token1 = `${protocol_address}::arc::Pool<0x1::aptos_coin::AptosCoin>`;
